@@ -1,10 +1,10 @@
 {
-    "name": "@nativescript-community/plugin-seed",
+    "name": "@abbieben/paystack",
     "version": "0.0.1",
     "description": "This is the description for the plugin seed. This is what will be published to NPM.",
-    "main": "./plugin-seed",
+    "main": "./paystack",
     "sideEffects": false,
-    "typings": "./plugin-seed.d.ts",
+    "typings": "./paystack.d.ts",
     "nativescript": {
         "platforms": {
             "android": "6.0.0",
@@ -22,12 +22,15 @@
         "Vue"
     ],
     "bugs": {
-        "url": "https://github.com/nativescript-community/plugin-seed/issues"
+        "url": "https://github.com/abbieben/paystack/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/nativescript-community/plugin-seed"
+        "url": "https://github.com/abbieben/paystack"
     },
     "license": "Apache-2.0",
-    "readmeFilename": "README.md"
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "@abbieben/webview-interface": "^0.0.2"
+    }
 }
